@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="/css/main.css">
+    <title> Frontend Mentor | Article preview component </title>
+</head>
+
+<body class="bg-blue-100">
+
+    <main class="container mx-auto">
+
+        <div class="p-10 flex flex-col md:flex md:flex-row md:mt-32">
+            <img src="/images/drawers.jpg" alt="" class="w-fit rounded-tl-2xl  md:w-2/5">
+
+            <div class="article bg-white p-10 relative md:w-3/5 rounded-tr-2xl">
+                <div class="article-info">
+                    <h2 class="text-gray-600 font-bold text-xl md:text-2xl"> Shift the overall look and feel by adding these wonderful touches to furniture in your home </h2>
+                    <p class="mt-5 text-gray-500 md:text-xl"> Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete. </p>
+                </div>
+
+
+                <div class="flex flex-row items-center justify-between mt-24" id="name-sec">
+                    <div class="flex flex-row space-x-5">
+                        <img src="images/avatar-michelle.jpg" alt="Michelle" class="w-14 rounded-full">
+                        <div>
+                            <h4 class="font-bold text-gray-500"> Michelle Appleton </h4>
+                            <span class="text-gray-400"> 28 Jun 2020 </span>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="bg-slate-900"> <img src="images/icon-share.svg" alt=""  class="bg-slate-200 p-3 rounded-full cursor-pointer md:mr-12" id="show-icon"> </span>
+                    </div>
+                </div>
+
+
+                <div class="bg-gray-700 p-7 w-full absolute bottom-0 h-36 right-0 flex flex-row items-center justify-between md:top-44 md:-right-10 md:w-80 md:h-7 md:p-12 md:rounded-md hidden" id="social-page">
+                    <p class="text-gray-400"> SHARE </p>
+                    <div class="flex flow-row justify-between space-x-3 md:w-5 h-5 md:mr-20">
+                        <img src="images/icon-facebook.svg" alt="">
+                        <img src="images/icon-twitter.svg" alt="">
+                        <img src="images/icon-pinterest.svg" alt="">
+                    </div>
+                    <span class="bg-gray-200 rounded-full p-2 md:hidden"> 
+                        <img src="images/icon-share.svg" alt="" id="close-icon">
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
